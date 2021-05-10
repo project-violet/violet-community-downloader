@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "835186850742",
+    "firebase_url": "https://communitydownloader.firebaseio.com",
+    "project_id": "communitydownloader",
+    "storage_bucket": "communitydownloader.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835186850742:android:c00eced6d50230daaa9f17",
+        "android_client_info": {
+          "package_name": "xyz.violet.communitydownloader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835186850742-j8sj88dra39uhotnap8vlpdv48rd1o6p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAweX_ha30QG5_KCbRtTuQTlkrv2ZW3n44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835186850742-j8sj88dra39uhotnap8vlpdv48rd1o6p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

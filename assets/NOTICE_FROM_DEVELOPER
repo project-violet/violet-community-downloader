@@ -1,0 +1,5 @@
+This program redistributes portions of the gpl source code without modification.
+Therefore, we disclose that part under the gpl license.
+This source code is run in a Python Program by command-line argument, and the Python Program is run on a separate Process.
+You can find license from assets/youtube-dl-release.zip/usr/gallery_dl/LICENSE
+Thank you.

@@ -1,0 +1,29 @@
+
+
+sudo ./scripts/run-docker.sh ./clean.sh
+sudo ./scripts/run-docker.sh ./build-python.sh
+sudo ./scripts/run-docker.sh ./build-ffmpeg.sh
+
+dpkg-deb -xv python_3.8.5_i686.deb .
+dpkg-deb -xv libandroid-support_26_i686.deb .
+dpkg-deb -xv libffi_3.3-2_i686.deb .
+dpkg-deb -xv openssl_1.1.1g-4_i686.deb .
+dpkg-deb -xv ca-certificates_20200722_all.deb .
+dpkg-deb -xv zlib_1.2.11-5_i686.deb .
+
+dpkg-deb -xv python_3.8.5_aarch64.deb .
+dpkg-deb -xv libandroid-support_26_aarch64.deb .
+dpkg-deb -xv libffi_3.3-2_aarch64.deb .
+dpkg-deb -xv openssl_1.1.1g-4_aarch64.deb .
+dpkg-deb -xv ca-certificates_20200722_all.deb .
+dpkg-deb -xv zlib_1.2.11-5_aarch64.deb .
+
+
+dpkg-deb -xv python_3.8.5_arm.deb .
+dpkg-deb -xv libandroid-support_26_arm.deb .
+dpkg-deb -xv libffi_3.3-2_arm.deb .
+dpkg-deb -xv openssl_1.1.1g-4_arm.deb .
+dpkg-deb -xv ca-certificates_20200722_all.deb .
+dpkg-deb -xv zlib_1.2.11-5_arm.deb .
+.
+ls | grep -P ".*static.*.deb" | xargs -d"\n" rm
